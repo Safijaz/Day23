@@ -11,12 +11,7 @@ const Table =(props)=> {
           //<TableBody characterData={characterData} removeCharacter={removeCharacter} />
           }
           <thead>
-            <tr>
-            <td>First name</td>
-            <td>Last name</td>
-            <td> Action</td>
-      
-            </tr>
+          
           </thead>
           <tbody>
          { characterData.map((row, index) => (
